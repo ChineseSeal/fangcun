@@ -1,0 +1,26 @@
+{
+  "name": "@fangcun/knowledge",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    ".": "./src/terms.ts",
+    "./achievements": "./src/achievements.ts",
+    "./classroom-exercises": "./src/classroom-exercises.ts",
+    "./historic-seals": "./src/historic-seals.ts",
+    "./lessons": "./src/lessons.ts",
+    "./knowledge-map": "./src/knowledge-map.ts",
+    "./quizzes": "./src/quizzes.ts",
+    "./quizzes/server": "./src/quiz-bank.ts",
+    "./wiki": "./src/wiki.ts"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "node -e \"console.log('knowledge: lint covered by typecheck')\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  }
+}

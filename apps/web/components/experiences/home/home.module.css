@@ -1,0 +1,388 @@
+.home {
+  padding-top: 58px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(600px, 1.1fr) minmax(470px, 0.9fr);
+  gap: clamp(42px, 5vw, 78px);
+  min-height: 580px;
+}
+
+.heroLead {
+  display: grid;
+  grid-template-columns: 230px minmax(330px, 1fr);
+  align-items: center;
+  gap: 30px;
+}
+
+.brushMark {
+  position: relative;
+  display: grid;
+  height: 350px;
+  place-items: center;
+}
+
+.brushMark::before {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  border: 13px solid rgba(145, 116, 78, 0.12);
+  border-right-color: transparent;
+  border-radius: 50%;
+  transform: rotate(-20deg);
+  content: "";
+}
+
+.brushMark > span {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-kai);
+  font-size: 190px;
+  font-weight: 700;
+  line-height: 1;
+  transform: rotate(-4deg);
+}
+
+.brushMark > span svg {
+  display: block;
+  width: 190px;
+  height: 190px;
+}
+
+.brushMark > i {
+  position: absolute;
+  right: 12px;
+  bottom: 64px;
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border: 2px solid var(--color-cinnabar);
+  color: var(--color-cinnabar);
+  font-size: 8px;
+  font-style: normal;
+}
+
+.heroCopy h1 {
+  margin: 0;
+  font-family: var(--font-kai);
+  font-size: clamp(34px, 3vw, 48px);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.redRule {
+  display: block;
+  width: 36px;
+  height: 2px;
+  margin: 24px 0 26px;
+  background: var(--color-cinnabar);
+}
+
+.heroInput {
+  height: 54px;
+  font-size: 16px;
+}
+
+.heroActions {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  margin-top: 26px;
+}
+
+.heroActions a {
+  min-height: 58px;
+  font-size: 17px;
+}
+
+.generateButton {
+  min-width: 220px;
+}
+
+.miniSeal {
+  display: grid;
+  width: 24px;
+  height: 24px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  font-size: 10px;
+}
+
+.miniSeal svg {
+  width: 16px;
+  height: 16px;
+}
+
+.heroBenefits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 28px;
+  color: var(--color-bronze);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.heroBenefits span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.heroBenefits b {
+  opacity: 0.5;
+}
+
+.previewHeading {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin: 7px 0 14px;
+}
+
+.previewHeading h2 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.previewHeading > span {
+  height: 1px;
+  flex: 1;
+  background: var(--color-line);
+}
+
+.previewHeading button {
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 5px;
+  border: 0;
+  color: var(--color-bronze);
+  background: transparent;
+}
+
+.previewGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.previewCard,
+.previewCardActive {
+  display: grid;
+  min-height: 205px;
+  place-items: center;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  padding: 16px 12px 12px;
+  color: var(--color-ink);
+  background: rgba(252, 248, 239, 0.62);
+  box-shadow: var(--shadow-raise);
+}
+
+.previewCardActive {
+  border-color: var(--color-cinnabar-soft);
+}
+
+.previewSeal {
+  width: 128px;
+  height: 128px;
+}
+
+.previewSeal :global(.seal-preview-engine),
+.previewSeal :global(.seal-preview-engine-item) {
+  width: 100%;
+}
+
+.previewCard > span,
+.previewCardActive > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-brown);
+  font-size: 13px;
+}
+
+.previewCard > span i,
+.previewCardActive > span i,
+.sourceLegend i {
+  display: inline-grid;
+  width: 18px;
+  height: 18px;
+  place-items: center;
+  border: 1px solid var(--cinnabar-200);
+  border-radius: var(--radius-sm);
+  color: var(--color-cinnabar);
+  font-size: 10px;
+  font-style: normal;
+}
+
+.sourceLegend {
+  margin: 12px 0 0;
+  color: var(--color-brown);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.previewStatus {
+  min-height: 18px;
+  margin: 10px 0 0;
+  color: var(--color-bronze);
+  font-size: 13px;
+  text-align: right;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  margin-top: 28px;
+  border-top: 1px solid var(--color-line);
+  padding-top: 28px;
+}
+
+.featureCard {
+  display: grid;
+  grid-template-columns: 1fr 160px;
+  min-height: 190px;
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  background: var(--color-panel);
+  box-shadow: var(--shadow-paper);
+}
+
+.featureCard > div > svg {
+  float: right;
+  color: var(--color-bronze);
+}
+
+.featureCard h2 {
+  margin: 0 0 10px;
+  font-family: var(--font-kai);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.featureCard p {
+  margin: 0 0 30px;
+  color: var(--color-brown);
+  font-size: 13px;
+}
+
+.featureCard div > span {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--color-cinnabar);
+  font-size: 13px;
+}
+
+.featureCard > img,
+.featureCard > svg {
+  align-self: center;
+  width: 150px;
+  height: 120px;
+  object-fit: contain;
+}
+
+@media (max-width: 1180px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .previewArea {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .home {
+    padding-top: 24px;
+  }
+
+  .hero {
+    gap: 38px;
+  }
+
+  .heroLead {
+    display: block;
+  }
+
+  .brushMark {
+    height: 180px;
+    margin-bottom: 10px;
+  }
+
+  .brushMark::before {
+    width: 120px;
+    height: 120px;
+  }
+
+  .brushMark > span {
+    font-size: 128px;
+  }
+
+  .brushMark > i {
+    right: 24%;
+    bottom: 22px;
+  }
+
+  .heroCopy h1 {
+    font-size: 30px;
+    white-space: normal;
+  }
+
+  .heroActions {
+    grid-template-columns: 1fr;
+  }
+
+  .heroBenefits {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .heroBenefits span {
+    min-height: 32px;
+  }
+
+  .heroBenefits b {
+    display: none;
+  }
+
+  .previewGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .previewCard,
+  .previewCardActive {
+    min-height: 165px;
+  }
+
+  .previewSeal {
+    width: 102px;
+    height: 102px;
+  }
+
+  .featureCard {
+    grid-template-columns: 1fr 110px;
+    padding: 20px;
+  }
+
+  .featureCard > img,
+  .featureCard > svg {
+    width: 104px;
+    height: 104px;
+  }
+}

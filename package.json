@@ -1,0 +1,31 @@
+{
+  "name": "fangcun",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "scripts": {
+    "benchmark:3d": "pnpm --filter @fangcun/web benchmark:3d",
+    "db:lint": "supabase db lint --local --level error --fail-on error",
+    "db:reset": "supabase db reset --local --no-seed",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "test": "turbo test",
+    "test:e2e": "turbo test:e2e",
+    "test:e2e:preview": "pnpm --filter @fangcun/web test:e2e:preview",
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop"
+  },
+  "devDependencies": {
+    "supabase": "2.113.0",
+    "turbo": "^2.5.4",
+    "typescript": "^5.8.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "@typescript-eslint/eslint-plugin": "8.46.1",
+      "@typescript-eslint/parser": "8.46.1",
+      "eslint-visitor-keys": "4.2.1"
+    }
+  }
+}

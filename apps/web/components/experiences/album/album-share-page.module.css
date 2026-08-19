@@ -1,0 +1,29 @@
+.page { padding: 48px 0 72px; }
+.hero { display: flex; align-items: flex-end; justify-content: space-between; gap: 28px; border-bottom: 1px solid var(--color-line); padding-bottom: 26px; }
+.eyebrow { color: var(--color-bronze); font-family: var(--font-mono); font-size: 10px; letter-spacing: .18em; }
+.hero h1 { margin: 10px 0; font-family: var(--font-kai); font-size: clamp(38px, 5vw, 56px); font-weight: 500; }
+.hero p { max-width: 680px; margin: 0; color: var(--color-brown); line-height: 1.8; }
+.viewer { display: grid; max-width: 920px; margin: 28px auto 0; gap: 14px; }
+.pageControls { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px; }
+.pageControls button { display: inline-flex; min-height: 36px; align-items: center; justify-content: center; border: 1px solid var(--color-line); border-radius: var(--radius-sm); padding: 6px 10px; color: var(--color-brown); background: transparent; font-size: 11px; }
+.pageControls button:disabled { cursor: not-allowed; opacity: .6; }
+.pageControls strong { min-width: 92px; color: var(--color-ink); font-family: var(--font-mono); font-size: 10px; text-align: center; }
+.stageToolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.stageToolbar span { color: var(--color-brown); font-family: var(--font-mono); font-size: 10px; }
+.paper { position: relative; display: grid; place-items: center; min-height: 620px; overflow: auto; border: 1px solid var(--color-line); padding: 28px; background: rgba(216,204,185,.38); box-shadow: var(--shadow-paper); }
+.paper svg { display: block; width: min(100%, 620px); height: auto; filter: drop-shadow(0 18px 22px rgba(67,49,34,.16)); }
+.empty { display: grid; min-height: 420px; place-items: center; align-content: center; gap: 12px; color: var(--color-brown); text-align: center; }
+.empty span { color: var(--color-line); font-family: var(--font-kai); font-size: 52px; }
+.empty p { max-width: 320px; margin: 0; line-height: 1.7; }
+.boundary { display: flex; align-items: flex-start; gap: 8px; border-left: 2px solid var(--color-cinnabar); padding: 9px 12px; color: var(--color-brown); background: rgba(179,38,30,.05); }
+.boundary svg { flex: 0 0 auto; margin-top: 2px; color: var(--color-cinnabar); }
+.boundary p { margin: 0; font-size: 11px; line-height: 1.7; }
+
+@media (max-width: 720px) {
+  .page { padding-top: 30px; }
+  .hero { align-items: flex-start; flex-direction: column; gap: 16px; padding-bottom: 20px; }
+  .hero h1 { font-size: 38px; }
+  .stageToolbar { align-items: flex-start; flex-direction: column; gap: 4px; }
+  .paper { min-height: 440px; padding: 14px; }
+  .boundary { font-size: 10px; }
+}

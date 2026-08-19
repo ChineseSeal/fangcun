@@ -1,0 +1,22 @@
+{
+  "name": "@fangcun/seal-engine",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "node -e \"console.log('seal engine: lint covered by typecheck')\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fangcun/dsl-schema": "workspace:*",
+    "@fangcun/glyph-tools": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  }
+}

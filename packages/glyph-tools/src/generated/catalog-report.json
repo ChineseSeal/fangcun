@@ -1,0 +1,7527 @@
+{
+  "assetVersion": "2026.08.2",
+  "excluded": [
+    {
+      "character": "丁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "七",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "丈",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "上",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "下",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "不",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "与",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "世",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "丙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "业",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "丛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "东",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "丝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "丨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "丩",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "中",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "丰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "丸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "丹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "为",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "主",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "丽",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "丿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乃",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "久",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "义",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "之",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乎",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乘",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "九",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "乾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "了",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "予",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "争",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "事",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "于",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "亏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "云",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "井",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "些",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "亡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "亢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "交",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "亥",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "亦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "京",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "亭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "亮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "亲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "人",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "亻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "什",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "仁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "仇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "今",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "介",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "仍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "从",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "仕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "仗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "仙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "仞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "仟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "代",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "令",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "以",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "仰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "仲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "份",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "仿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "伉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "伊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "伍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "伎",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "伐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "传",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "伢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "伤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "伫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "伯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "伴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "伶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "伸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "似",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "但",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "低",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "佐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "体",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "何",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "余",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "佛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "佶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "佻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "侉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "侍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "依",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "侥",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "侨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "侮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "侵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "俄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "俊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "俏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "俗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "保",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "俪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "候",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "倚",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "倪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "倾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "偳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "催",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "傲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "儿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "兀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "允",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "元",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "兄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "充",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "兆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "兇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "先",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "光",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "兊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "克",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "免",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "兑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "兔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "兕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "入",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "八",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "公",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "六",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "兮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "兴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "兵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "其",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "具",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "兹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "养",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "冀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "冂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "内",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "冋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "冑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "冖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "农",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "冬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "冰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "冲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "决",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "况",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "冷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "冻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "净",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "凄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "凌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "减",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "凝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "几",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "凡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "凤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "出",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "击",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "函",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "刀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "刂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "刃",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "分",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "切",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "刑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "则",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "刬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "到",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "制",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "刺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "刻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "削",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "前",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "剩",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "剪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "力",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "功",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "加",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "务",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "助",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "努",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "劲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "劳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "劼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "勇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "勞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "勺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "勿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "匀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "匆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "匕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "北",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "匚",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "匝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "匠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "匡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "区",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "區",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "十",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "千",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "升",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "午",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "半",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "华",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "卒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "单",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "卖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "南",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "卜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "占",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "卯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "印",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "危",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "即",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "却",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "厂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "厄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "厅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "厈",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "厥",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "厶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "去",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "厽",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "县",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "叁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "参",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "又",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "叉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "及",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "友",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "反",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "发",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "叔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "取",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "受",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "变",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "叟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "另",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "叨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "叩",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "只",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "叫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "召",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "叭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "叮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "可",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "台",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "叱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "史",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "右",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "叶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "号",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "司",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "各",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "吉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "同",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "吐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "向",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "吗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "君",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "吟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "吨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "含",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "听",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "吴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "吹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "吿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "呀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "呆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "呈",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "呐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "员",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "呡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "味",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "呵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "呸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "呼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "命",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "和",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "咨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "咬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "咯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "咳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "咸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "哀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "哉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "哥",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "哭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "哺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "唢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "啸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "啼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "喃",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "喜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "喧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "單",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "嗅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "嗟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "嗷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "噗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "器",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "噫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "嚘",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "嚣",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "嚷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "土",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "圣",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "在",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "圭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "坑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "坚",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "坞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "坡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "坤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "垔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "垢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "垮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "基",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "堂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "堇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "堒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "塑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "塞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "壁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "壤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "士",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "壬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "壮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "壹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "夂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "处",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "夊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "夏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "夔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "外",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "夙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "多",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "夜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "大",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "天",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "太",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "夫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "夬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "央",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "失",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "头",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "夷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "夸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "夺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "奇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "奈",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "契",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "奔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "奕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "奚",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "奢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "女",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "奴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "奶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "她",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "好",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "如",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "妄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "妆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "妖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "妙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "妨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "妻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "姆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "始",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "姑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "姓",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "姿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "威",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "娄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "娇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "娈",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "婚",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "婴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "婻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "媚",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "子",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "孑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "孒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "孔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "孖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "字",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "存",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "孙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "孟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "季",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "学",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "孪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "宀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "它",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "安",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "完",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "宏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "官",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "宙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "定",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "宜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "宝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "客",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "宣",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "室",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "宦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "宫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "宭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "宰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "宴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "宵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "家",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "容",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "寂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "寄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "寅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "密",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "富",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "寝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "寡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "寸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "寺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "寻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "寿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "専",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "将",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "將",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "尊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "小",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "少",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "尔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "尖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "尚",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "尞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "尤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "尧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "尸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "尺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "尾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "层",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "居",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "屈",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "屯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "山",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "岐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "岑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "岛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "岭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "岱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "岳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "岷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "岸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "峤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "峨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "峭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "峰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "崇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "崔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "嶂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "嶠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "州",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "巢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "左",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "巧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "差",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "己",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "已",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "巳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "巴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "巷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "巾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "市",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "布",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "帅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "帆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "师",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "希",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "帛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "帝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "带",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "席",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "帮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "幕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "平",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "年",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "并",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "幸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "幹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "幼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "广",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "庄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "庆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "床",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "序",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "底",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "庙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "府",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "废",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "度",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "座",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "庭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "康",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "庸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "庾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "廊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "廓",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "廖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "廷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弃",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "式",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弓",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "引",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弘",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弥",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "弱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "强",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "彤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "彦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "彰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "影",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "彳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "彷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "役",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "彼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "往",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "征",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "径",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "待",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "很",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "徊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "徐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "徒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "得",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "徙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "微",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "心",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "忄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "必",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "忌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "忍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "忒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "忘",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "忠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "忧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "念",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "忽",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "怒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "怜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "怠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "急",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "性",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "恃",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "恐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "恭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "息",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "恰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "恶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "悄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "悉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "患",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "悦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "悲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "惊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "惕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "惠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "惨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "惭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "惷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "意",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "愛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "感",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "愰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "愿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "慈",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "慧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "憯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "懈",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "戈",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "戉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "戊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "戌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "戍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "戎",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "成",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "我",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "或",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "战",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "户",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "手",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "扌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "才",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "扎",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "打",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "扔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "托",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "扣",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "扬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "批",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "承",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "抒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "抔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "投",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "抟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "披",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "抬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "抵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "抹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "抿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "拂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "担",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "拒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "拙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "拟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "拨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "持",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "挛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "掇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "授",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "掌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "排",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "掣",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "控",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "搏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "搜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "摹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "擎",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "支",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "攴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "攵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "收",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "攸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "改",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "攻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "放",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "政",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "故",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "敖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "教",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "敝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "敢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "散",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "敫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "敬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "敲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "文",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "斐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "斗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "料",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "斤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "斩",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "斫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "斯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "新",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "方",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "施",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "旁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "无",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "早",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "旷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "旺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "昆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "昏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "昜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "映",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "春",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "昨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "昭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "昵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "晃",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "晏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "晓",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "晞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "晨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "景",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "晴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "暂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "暄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "暑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "暖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "曰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "曳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "曹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "曼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "朁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "月",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "有",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "朋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "服",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "朕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "朘",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "望",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "朝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "木",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "未",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "末",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "本",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "札",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "朱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "朵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "机",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "杀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "李",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "杏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "材",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "村",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "杖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "杜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "杞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "束",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "条",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "来",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "杨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "极",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "枉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "枋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "析",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "枕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "枚",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "果",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "枝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "枫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "柏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "柒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "柔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "柯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "柳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "柴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "柸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "标",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "校",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "样",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "根",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "格",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "栾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "框",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "桑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "桔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "桕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "桥",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "桴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "梁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "梣",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "梨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "梳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "棉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "棠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "棱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "椅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "植",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "槊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "橐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "檠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "欠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "次",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "欢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "欣",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "欧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "欮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "欲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "歌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "此",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "步",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "武",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "歧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "歹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "死",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "殃",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "殊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "残",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "殳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "殷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "毋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "母",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "每",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "毒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "比",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "毕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "毙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "毛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "毫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "氏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "氐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "民",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "气",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "水",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "氵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "永",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "汀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "求",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "汉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "汒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "汕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "汝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "江",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "池",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "汪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "汵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "汸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "汽",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "汾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "没",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "河",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "油",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沽",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "沾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "泉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "泊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "泗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "泛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "波",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "泣",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "泩",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "泪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "泯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "泰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "洁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "洋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "洗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "洞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "津",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "活",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "浅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "浊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "济",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "浥",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "浩",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "浮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "海",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "浸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "涂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "消",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "涉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "涓",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "涔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "涧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "涷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "淄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "淨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "淫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "淬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "淮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "淳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "混",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "淹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "添",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "清",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "渉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "渊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "渠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "渡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "渭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "渺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "湖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "湛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "湮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "湾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "溏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "溢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "溴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "溶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "滋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "滔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "滕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "满",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "漂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "漠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "潸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "澄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "火",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "灯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "灸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "灾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "灿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "炅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "炊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "炖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "炙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "炼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "烧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "烫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "烽",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "焉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "焜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "煮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "熔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "熬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "熹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "燕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "燮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "爪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "爵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "父",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "爸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "爹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "爽",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "片",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "牙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "牛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "牜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "牟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "牡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "牢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "牧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "物",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "牵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "特",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "犁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "犬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "犭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "犯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "犲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "状",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "犹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "狂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "狎",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "狗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "猜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "玄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "玉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "王",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "玩",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "玲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "玻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "珅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "珍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "珞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "珠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "琐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "琦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "琴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "琶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "瑞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "璀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "璘",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "璟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "璧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "瓜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "瓦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "瓮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "生",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "用",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "甫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "甲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "申",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "男",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "町",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "畋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "界",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "畔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "番",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "畸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "疏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "疑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "疲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "疳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "疴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "疵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "疾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "症",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "痕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "痛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "痰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "登",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "白",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "百",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "皇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "皮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "皱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "盆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "益",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "盖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "盗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "盛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "相",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "眇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "眈",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "看",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "真",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "眦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "眸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "眼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "着",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "瞭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "瞿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "矍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "矛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "矜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "矢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "矣",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "知",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "矫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "石",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "矿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "砌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "砧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "破",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "砷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "硶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "碧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "磬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "磷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "示",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "礼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "祀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "祖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "祗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "祝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "祥",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "祭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "禁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "禹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "禾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "秀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "私",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "秃",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "秋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "秒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "秦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "稍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "穆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "穹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "空",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "窈",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "窕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "窥",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "立",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "竟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "端",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "竹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "竺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "竿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "笃",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "笆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "笑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "笒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "笔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "笘",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "笙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "笠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "符",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "第",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "笺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "笼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "等",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "筋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "筏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "筐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "筒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "策",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "筹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "简",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "算",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "管",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "箪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "箫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "箬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "箸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "篁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "篆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "篓",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "篡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "簪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "簸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "米",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "粉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "粒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "粔",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "粗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "粘",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "粦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "粪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "粹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "系",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "素",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "紫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "結",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "絮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "縢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "繁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "纟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "红",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "约",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "级",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "纪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "纯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "纱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "纸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "纾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "线",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "绅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "细",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "终",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "绍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "经",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "结",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "绕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "绫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "绵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "缀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "缁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "缈",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "缶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "缺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "罓",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "罪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "羊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "羌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "美",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "羞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "羡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "羸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "羿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "翁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "翟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "翠",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "老",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "耂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "考",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "耆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "耑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "耘",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "耳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "耻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "聊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "聚",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "聿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "肆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "肉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "肖",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "股",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "肱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "育",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "胃",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "胄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "背",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "胤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "胸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "脉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "脱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "腰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "腴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "腾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "臭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "至",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "致",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "舀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "舆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "興",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "舌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "舟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "航",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "舶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "船",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "艮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "良",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "色",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "节",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "芋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "芙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "芜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "芝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "芥",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "芬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "花",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "芳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "芸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "芹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "芽",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "苎",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "苗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "若",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "苫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "英",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "苹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "苻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "苼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "茅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "茉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "茬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "茱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "茶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "茼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "荀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "草",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "荞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "荡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "荦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "药",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "荷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "莓",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "莹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "莺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "莽",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "菁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "菜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "菡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "菩",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "萃",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "萋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "萏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "萤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "葆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "著",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "葱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蒌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蒴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蒿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蓉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蓍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蓦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蓬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蔂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蔓",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蕉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "薇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "薪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "藏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "藤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "虎",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "虏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "虑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "虞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "虬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "虺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "虿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蚂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蚊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蚌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蚕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蚚",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蚜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蚝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蚤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蛊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蛮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蛰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蜂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蜇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蜺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蝉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "螨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "蠢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "行",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "衣",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "衰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "衾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "袁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "被",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "袭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "裂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "装",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "裕",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "裘",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "裳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "褒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "襄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "襟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "要",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "见",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "规",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "觅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "觉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "解",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "言",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "訁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "警",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "譬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "训",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "记",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "讲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "诃",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "试",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "诛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "说",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "谋",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "豆",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "象",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "豪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "豸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "貎",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "貳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "贞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "负",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "财",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "责",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "败",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "货",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "质",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "贫",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "贯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "贰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "贱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "贵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "费",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "贺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "贾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "资",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "赏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "赐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "赒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "赘",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "赞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "赤",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "赦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "走",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "赴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "赵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "赶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "起",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "趁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "越",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "足",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "身",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "车",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "轩",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "轲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "轻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "轼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "载",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "辎",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "辛",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "辰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "迁",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "近",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "迥",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "迷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "追",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "选",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "通",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "逸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "遂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "遇",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "遑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "道",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "達",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "遗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "遭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "邑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "邦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "邨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "邪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "邬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "邮",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "邴",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "邵",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "邸",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "邹",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "邻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "郊",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "郎",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "郑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "郦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "郭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鄙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "采",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "钦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "钱",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "钺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "钻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "铍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "镬",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "长",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "门",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "间",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "阜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "阝",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "队",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "阡",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "阳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "阶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "附",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "陌",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "限",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "除",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "隳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "雀",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "雚",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "雯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "雲",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "霄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "霓",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "霜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "霰",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "青",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "静",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "革",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鞭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "韦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "顒",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "页",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "顶",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "顷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "项",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "顺",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "须",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "顽",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "顿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "领",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "颉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "频",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "颓",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "颗",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "题",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "颙",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "颜",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "颦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "风",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "飞",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "食",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "餐",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "馨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "马",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "驷",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "驾",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "骂",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "骄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "骑",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "骨",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "高",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鬼",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "魄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鴣",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鷓",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鸟",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鸢",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鸣",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鸦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鸪",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鸯",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鸳",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鹅",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鹉",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鹍",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鹏",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鹧",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鹭",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "麦",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "黄",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鼎",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "鼻",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "齿",
+      "reason": "quality_gate",
+      "script": "guxi"
+    },
+    {
+      "character": "一",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "一"
+    },
+    {
+      "character": "丫",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "丫"
+    },
+    {
+      "character": "乞",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "乞"
+    },
+    {
+      "character": "倘",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "倘"
+    },
+    {
+      "character": "刁",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "刁"
+    },
+    {
+      "character": "匋",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "匋"
+    },
+    {
+      "character": "等",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "等"
+    },
+    {
+      "character": "籫",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "籫"
+    },
+    {
+      "character": "紌",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "紌"
+    },
+    {
+      "character": "罜",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "罜"
+    },
+    {
+      "character": "茘",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "茘"
+    },
+    {
+      "character": "隞",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "隞"
+    },
+    {
+      "character": "魛",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "魛"
+    },
+    {
+      "character": "鱽",
+      "reason": "quality_gate",
+      "script": "xiaozhuan",
+      "sourceCharacter": "魛"
+    }
+  ],
+  "previewMissing": [],
+  "previewSprite": {
+    "file": "fangcun-preview-2026.08.2.svg",
+    "glyphs": 110,
+    "sha256": "7f2c6b7272dfecbad18b852fe4bb80ff3dd0783e7531fc00fe2511858a1fd0df"
+  },
+  "published": {
+    "guxiVariants": 1534,
+    "onDemandModernStyleCoverage": {
+      "bird_worm": 8925,
+      "guxi": 8925,
+      "han_seal": 8925,
+      "jiaguwen": 8925,
+      "jinwen": 8925
+    },
+    "uniqueInputCharacters": 8925,
+    "xiaozhuanVariants": 8643
+  },
+  "quality": {
+    "highComplexityGuxi": 1,
+    "highComplexityXiaozhuan": 160
+  },
+  "sources": {
+    "cns-shuowen-2017": {
+      "cjkCoverage": 6738,
+      "sha256": "e8501dc9747190936a222576c9b0b6f918ff335afa5696c3fda3acba1a9574e2"
+    },
+    "fangcun-manual": {
+      "sha256": "cb5094a32910966307943cd536328c16ccce3d52ff5b5bfc779bcd0a56372575"
+    },
+    "jfzsk-v3": {
+      "cjkCoverage": 3014,
+      "sha256": "97b8ffdc5a715838a7be659aca626bfa4710ecd35e7eccb3ae2ffb2b7de2c250"
+    },
+    "opencc-stcharacters": {
+      "sha256": "a0ca1601c70648cf48b33c3c6210ccbecc5c7eead4b4c3daf76587ba2c03582b"
+    }
+  }
+}

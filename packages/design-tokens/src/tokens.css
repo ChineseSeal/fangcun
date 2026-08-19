@@ -1,0 +1,103 @@
+:root {
+  --color-paper: #f6f0e4;
+  --color-paper-light: #fbf7ee;
+  --color-ink: #2b241d;
+  --color-cinnabar: #b52618;
+  --color-brown: #94714c;
+  --color-night: #211d18;
+  --color-border: #d9cbb4;
+
+  --paper-50: #fdfcf9;
+  --paper-100: #f8f5ee;
+  --paper-200: #f3efe6;
+  --paper-300: #ebe5d9;
+  --paper-400: #dfd8c9;
+  --paper-500: #d9d2c7;
+  --paper-600: #c3baaa;
+  --paper-700: #a2988a;
+  --paper-800: #7d746a;
+  --paper-900: #5a544c;
+
+  --ink-900: #1a1917;
+  --ink-800: #2b2926;
+  --ink-700: #403c37;
+  --ink-600: #5c564f;
+  --ink-500: #7a736a;
+  --ink-400: #9c948a;
+
+  --cinnabar-700: #8e1d17;
+  --cinnabar-600: #9e211a;
+  --cinnabar-500: #b3261e;
+  --cinnabar-400: #c4544d;
+  --cinnabar-200: #e8c4c1;
+  --cinnabar-100: #f5e4e2;
+
+  --color-success: #4a6b47;
+  --color-warning: #a6761d;
+  --color-danger: #7a2a22;
+  --color-info: #3e5a6b;
+
+  --color-bronze: #9b7750;
+  --color-line: #d8c9b0;
+  --color-panel: rgba(252, 248, 239, 0.72);
+  --color-panel-strong: rgba(252, 248, 239, 0.92);
+  --color-cinnabar-soft: #d87967;
+
+  --font-serif: "Noto Serif SC Variable", "Source Han Serif SC", "Songti SC", serif;
+  --font-display: "Noto Serif SC Variable", "Source Han Serif SC", "Songti SC", serif;
+  --font-kai: var(--font-display);
+  --font-sans: "Noto Sans SC Variable", "Source Han Sans SC", "PingFang SC", sans-serif;
+  --font-mono: "Noto Sans Mono Variable", "SFMono-Regular", Consolas, monospace;
+
+  --page-gutter: clamp(24px, 3.4vw, 52px);
+  --page-max: 1360px;
+  --header-height: 92px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  --radius-none: 0;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 999px;
+
+  --shadow-none: none;
+  --shadow-paper: 0 2px 8px rgba(79, 57, 33, 0.05);
+  --shadow-raise: 0 5px 15px rgba(79, 57, 33, 0.08);
+  --shadow-float: 0 12px 32px rgba(79, 57, 33, 0.12);
+  --shadow-seal: 0 3px 8px rgba(122, 35, 22, 0.12);
+
+  --z-sticky: 100;
+  --z-dropdown: 200;
+  --z-popover: 300;
+  --z-modal: 500;
+  --z-toast: 600;
+
+  --duration-instant: 100ms;
+  --duration-fast: 180ms;
+  --duration-normal: 260ms;
+  --duration-slow: 450ms;
+  --duration-generate: 800ms;
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-seal: cubic-bezier(0.34, 1.2, 0.64, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 80ms;
+    --duration-normal: 100ms;
+    --duration-slow: 100ms;
+    --duration-generate: 100ms;
+  }
+}

@@ -1,0 +1,458 @@
+.page {
+  max-width: 1080px;
+  padding: 42px 0 76px;
+}
+
+.page > nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  color: var(--color-brown);
+  font-size: 11px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  gap: 48px;
+  margin-bottom: 28px;
+}
+
+.hero p,
+.result > div:nth-child(2) > p,
+.questionBody > p {
+  margin: 0;
+  color: var(--color-info);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+}
+
+.hero h1 {
+  margin: 10px 0 14px;
+  font-family: var(--font-kai);
+  font-size: clamp(42px, 6vw, 62px);
+  font-weight: 500;
+}
+
+.hero > div > span {
+  color: var(--color-brown);
+  line-height: 1.8;
+}
+
+.hero dl {
+  display: flex;
+  margin: 0;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--color-panel) 85%, transparent);
+}
+
+.hero dl div {
+  display: grid;
+  min-width: 104px;
+  gap: 5px;
+  padding: 15px 18px;
+  text-align: center;
+}
+
+.hero dl div + div {
+  border-left: 1px solid var(--color-line);
+}
+
+.hero dt {
+  color: var(--color-brown);
+  font-size: 9px;
+}
+
+.hero dd {
+  margin: 0;
+  font-size: 12px;
+}
+
+.runner {
+  overflow: hidden;
+}
+
+.progressHeader {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 18px;
+  border-bottom: 1px solid var(--color-line);
+  padding: 16px 24px;
+  color: var(--color-brown);
+  font-size: 11px;
+}
+
+.progressHeader > span {
+  color: var(--color-info);
+  font-family: var(--font-mono);
+}
+
+.progressTrack {
+  height: 3px;
+  overflow: hidden;
+  border-radius: 99px;
+  background: var(--color-line);
+}
+
+.progressTrack i {
+  display: block;
+  height: 100%;
+  background: var(--color-info);
+  transition: width var(--duration-normal) var(--ease-out);
+}
+
+.questionGrid {
+  display: grid;
+  min-height: 580px;
+  grid-template-columns: minmax(300px, 0.85fr) minmax(380px, 1.15fr);
+}
+
+.sealStage {
+  display: grid;
+  min-width: 0;
+  align-content: center;
+  justify-items: center;
+  margin: 0;
+  border-right: 1px solid var(--color-line);
+  padding: 48px;
+  background: radial-gradient(circle, rgba(255, 252, 244, 0.82), rgba(222, 212, 191, 0.24));
+}
+
+.sealStage > div {
+  width: min(310px, 100%);
+  filter: drop-shadow(0 14px 15px rgba(82, 45, 26, 0.1));
+}
+
+.sealStage svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sealStage figcaption {
+  margin-top: 22px;
+  color: var(--color-brown);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+}
+
+.questionBody {
+  display: grid;
+  align-content: center;
+  padding: 46px clamp(30px, 5vw, 64px);
+}
+
+.questionBody h2 {
+  max-width: 17em;
+  margin: 13px 0 28px;
+  font-family: var(--font-kai);
+  font-size: clamp(27px, 3vw, 34px);
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.questionBody fieldset {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.questionBody fieldset label {
+  display: grid;
+  min-height: 58px;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  gap: 13px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  padding: 10px 15px;
+  background: rgba(255, 252, 246, 0.45);
+  cursor: pointer;
+  transition: border-color var(--duration-fast) var(--ease-out), background var(--duration-fast) var(--ease-out);
+}
+
+.questionBody fieldset label:hover,
+.questionBody fieldset label.optionSelected {
+  border-color: color-mix(in srgb, var(--color-info) 55%, var(--color-line));
+  background: color-mix(in srgb, var(--color-panel) 90%, var(--color-info));
+}
+
+.questionBody fieldset label:has(input:focus-visible) {
+  outline: 2px solid var(--color-cinnabar);
+  outline-offset: 2px;
+}
+
+.questionBody fieldset input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  opacity: 0;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.questionBody fieldset label > span {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  border: 1px solid var(--color-line);
+  border-radius: 50%;
+  color: var(--color-brown);
+  font-family: var(--font-mono);
+  font-size: 10px;
+}
+
+.questionBody fieldset label > strong {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.submitRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.submitRow p {
+  margin: 0;
+  color: var(--color-brown);
+  font-size: 10px;
+}
+
+.feedback {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+  border: 1px solid color-mix(in srgb, var(--color-success) 44%, var(--color-line));
+  border-radius: var(--radius-md);
+  padding: 20px;
+  color: var(--color-success);
+  background: color-mix(in srgb, var(--color-panel) 92%, var(--color-success));
+}
+
+.feedback[data-correct="false"] {
+  border-color: color-mix(in srgb, var(--color-info) 46%, var(--color-line));
+  color: var(--color-info);
+  background: color-mix(in srgb, var(--color-panel) 92%, var(--color-info));
+}
+
+.feedback > div {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.feedback p {
+  margin: 0;
+  color: var(--color-ink);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.feedback small {
+  color: var(--color-brown);
+}
+
+.feedback button {
+  justify-self: start;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 34px 44px;
+  padding: clamp(30px, 6vw, 66px);
+}
+
+.resultMark {
+  display: flex;
+  width: 180px;
+  height: 180px;
+  align-items: baseline;
+  justify-content: center;
+  border: 2px solid var(--color-cinnabar);
+  padding-top: 40px;
+  color: var(--color-cinnabar);
+  box-shadow: inset 0 0 0 7px var(--color-panel), inset 0 0 0 8px var(--color-cinnabar);
+}
+
+.resultMark span {
+  font-family: var(--font-kai);
+  font-size: 74px;
+  line-height: 1;
+}
+
+.resultMark small {
+  font-family: var(--font-mono);
+}
+
+.result h2 {
+  margin: 12px 0 16px;
+  font-family: var(--font-kai);
+  font-size: clamp(31px, 4vw, 46px);
+  font-weight: 500;
+}
+
+.result > div:nth-child(2) > span {
+  color: var(--color-brown);
+  line-height: 1.8;
+}
+
+.review {
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--color-line);
+  padding-top: 24px;
+}
+
+.review h3 {
+  margin: 0 0 14px;
+  font-family: var(--font-kai);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.review > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.review a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--color-line);
+  border-radius: 99px;
+  padding: 8px 12px;
+  color: var(--color-info);
+  font-size: 11px;
+}
+
+.resultActions {
+  display: flex;
+  grid-column: 1 / -1;
+  gap: 10px;
+}
+
+.shareStatus {
+  grid-column: 1 / -1;
+  min-height: 1.5em;
+  margin: -20px 0 0;
+  color: var(--color-brown);
+  font-size: 10px;
+}
+
+.promise {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 18px;
+  margin-top: 20px;
+  border-left: 2px solid var(--color-info);
+  padding: 16px 20px;
+  background: color-mix(in srgb, var(--color-panel) 84%, transparent);
+}
+
+.promise p {
+  margin: 0;
+  color: var(--color-brown);
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+@media (max-width: 780px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero dl {
+    width: 100%;
+  }
+
+  .hero dl div {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .questionGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .sealStage {
+    border-right: 0;
+    border-bottom: 1px solid var(--color-line);
+    padding: 30px;
+  }
+
+  .sealStage > div {
+    width: 220px;
+  }
+
+  .questionBody {
+    padding: 30px 24px 34px;
+  }
+
+  .result {
+    grid-template-columns: 120px 1fr;
+  }
+
+  .resultMark {
+    width: 120px;
+    height: 120px;
+    padding-top: 26px;
+  }
+
+  .resultMark span {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 520px) {
+  .progressHeader {
+    grid-template-columns: auto 1fr;
+  }
+
+  .progressHeader small {
+    display: none;
+  }
+
+  .hero dl div {
+    padding: 12px 8px;
+  }
+
+  .submitRow,
+  .resultActions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .result {
+    grid-template-columns: 1fr;
+  }
+
+  .resultMark {
+    width: 110px;
+    height: 110px;
+  }
+
+  .promise {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .progressTrack i,
+  .questionBody fieldset label {
+    transition: none;
+  }
+}

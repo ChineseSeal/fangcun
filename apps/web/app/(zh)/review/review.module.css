@@ -1,0 +1,27 @@
+.page { padding: 48px 0 72px; }
+.hero { display: flex; align-items: flex-end; justify-content: space-between; gap: 28px; border-bottom: 1px solid var(--color-line); padding-bottom: 28px; }
+.hero > div { max-width: 760px; }
+.hero span, .queue header span, .item header span { color: var(--color-cinnabar); font-family: var(--font-mono); font-size: 10px; letter-spacing: .13em; }
+.hero h1 { margin: 10px 0; font-family: var(--font-kai); font-size: clamp(38px, 5vw, 58px); font-weight: 500; }
+.hero p, .queue header p, .item header p, .detail { margin: 0; color: var(--color-brown); line-height: 1.8; }
+.message { min-height: 24px; margin: 16px 0; color: var(--color-cinnabar); font-size: 12px; }
+.summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.summary span { display: flex; align-items: baseline; justify-content: space-between; border: 1px solid var(--color-line); border-radius: var(--radius-sm); padding: 16px 18px; color: var(--color-brown); font-size: 12px; }
+.summary strong { color: var(--color-ink); font-family: var(--font-kai); font-size: 28px; font-weight: 500; }
+.queues { display: grid; gap: 34px; margin-top: 34px; }
+.queue { border-top: 1px solid var(--color-line); padding-top: 22px; }
+.queue > header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; }
+.queue > header > div { display: flex; align-items: baseline; gap: 12px; }
+.queue > header h2 { margin: 0; font-family: var(--font-kai); font-size: 27px; font-weight: 500; }
+.queue > header p { max-width: 500px; font-size: 13px; }
+.queueList { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 18px; }
+.item { display: grid; gap: 14px; min-width: 0; padding: 20px; }
+.item header { display: flex; justify-content: space-between; gap: 12px; }
+.item h3 { margin: 8px 0 4px; font-family: var(--font-kai); font-size: 21px; font-weight: 500; }
+.item header p, .detail { font-size: 12px; }
+.item code { height: max-content; color: var(--color-brown); font-family: var(--font-mono); font-size: 10px; }
+.item label { display: grid; gap: 7px; }
+.item textarea { min-height: 72px; resize: vertical; }
+.item footer { display: flex; flex-wrap: wrap; gap: 8px; }
+.empty { margin: 18px 0 0; border: 1px dashed var(--color-line); padding: 18px; color: var(--color-brown); text-align: center; }
+@media (max-width: 760px) { .page { padding-top: 28px; } .hero, .queue > header { align-items: stretch; flex-direction: column; } .hero > a { align-self: start; } .summary, .queueList { grid-template-columns: 1fr; } .queue > header h2 { font-size: 24px; } }

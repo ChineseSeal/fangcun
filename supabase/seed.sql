@@ -1,0 +1,1 @@
+-- Fangcun account sync has no shared seed data. User rows are created by Auth.

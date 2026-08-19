@@ -1,0 +1,202 @@
+.viewer {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  grid-template-rows: minmax(0, 1fr) auto auto auto auto;
+  color: #e8e3d9;
+  background: #272622;
+}
+
+.visual {
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+  background: #eee6d8;
+}
+
+.poster,
+.canvas {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+
+.poster {
+  padding: 13%;
+  background: #eee6d8;
+}
+
+.poster svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 16px 22px rgba(57, 47, 36, 0.14));
+}
+
+.canvas canvas {
+  display: block;
+  touch-action: none;
+}
+
+.status,
+.primaryAction {
+  position: absolute;
+  z-index: 3;
+}
+
+.status {
+  top: 12px;
+  left: 12px;
+  max-width: calc(100% - 24px);
+  border: 1px solid rgba(239, 229, 211, 0.4);
+  border-radius: 999px;
+  padding: 6px 10px;
+  color: #f0e9de;
+  background: rgba(38, 36, 32, 0.76);
+  font-size: 10px;
+  backdrop-filter: blur(8px);
+}
+
+.primaryAction {
+  right: 12px;
+  bottom: 12px;
+}
+
+.primaryAction button {
+  min-height: 38px;
+  border: 1px solid rgba(250, 241, 226, 0.54);
+  border-radius: var(--radius-sm);
+  padding: 0 14px;
+  color: #f7f0e4;
+  background: rgba(41, 38, 33, 0.88);
+  font-size: 11px;
+}
+
+.viewControls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid rgba(232, 227, 217, 0.16);
+  border-bottom: 1px solid rgba(232, 227, 217, 0.16);
+}
+
+.viewControls button {
+  min-height: 40px;
+  border: 0;
+  border-right: 1px solid rgba(232, 227, 217, 0.16);
+  color: #d6cec1;
+  background: transparent;
+  font-size: 11px;
+}
+
+.viewControls button:last-child {
+  border-right: 0;
+}
+
+.viewControls button[aria-pressed="true"] {
+  color: #fff8ea;
+  background: rgba(179, 38, 30, 0.35);
+}
+
+.viewControls button:disabled {
+  opacity: 0.42;
+}
+
+.materialControls {
+  display: flex;
+  overflow-x: auto;
+  border-bottom: 1px solid rgba(232, 227, 217, 0.16);
+  scrollbar-width: thin;
+}
+
+.materialControls button {
+  display: inline-flex;
+  min-width: 76px;
+  min-height: 44px;
+  flex: 1 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 0;
+  border-right: 1px solid rgba(232, 227, 217, 0.12);
+  padding: 0 7px;
+  color: #bdb4a6;
+  background: transparent;
+  font-size: 9px;
+}
+
+.materialControls button > span {
+  width: 13px;
+  height: 13px;
+  flex: 0 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px rgba(29, 25, 21, 0.16);
+}
+
+.materialControls button[aria-pressed="true"] {
+  color: #fff8ea;
+  background: rgba(179, 38, 30, 0.28);
+}
+
+.materialControls button:disabled {
+  opacity: 0.5;
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 0;
+  border-bottom: 1px solid rgba(232, 227, 217, 0.16);
+  padding: 9px 12px;
+}
+
+.facts div {
+  min-width: 0;
+}
+
+.facts dt {
+  color: #a79e90;
+  font-size: 8px;
+}
+
+.facts dd {
+  margin: 3px 0 0;
+  font-size: 9px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.help {
+  margin: 0;
+  padding: 8px 12px;
+  color: #a79e90;
+  font-size: 8px;
+  text-align: center;
+}
+
+@media (max-width: 520px) {
+  .facts {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 8px;
+  }
+
+  .help {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .viewer *,
+  .viewer *::before,
+  .viewer *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  .viewer {
+    display: none;
+  }
+}
