@@ -300,3 +300,8 @@
 
 - 重新通过 `pnpm lint`、`pnpm typecheck`、`pnpm test`（11 个 workspace、78 项 Web 单测）与 `pnpm build`（64 页）；本地 Preview Smoke 桌面 / 移动 2/2 通过，`git diff --check` 与 Markdown 链接扫描通过。
 - 确认 `codex/r0-preview` 尚未推送，远程仍只有初始 `README.md`；最新 Vercel Preview 保持 READY 且 SSO 保护开启。剩余工作仅为建立 Git 基线、配置四个 GitHub Actions Secrets 并验证 PR workflow，未获得提交 / 推送授权前不执行这些外部变更。
+
+## 2026-08-20 · R0 Git 基线推送
+
+- 修正 Python `__pycache__` 忽略规则与提交空白后，创建 `feat: establish Fangcun R0 application baseline`，提交 `8a01d4d`，包含 577 个基线文件；推送前重新通过 lint、typecheck、unit 和生产 build。
+- 通过 SSH 将 `codex/r0-preview` 推送到 `github.com/ChineseSeal/fangcun`，远程分支 SHA 与本地一致；GitHub Actions Secrets 尚未配置，PR 尚未创建，Vercel 仍保持 Preview-only。
