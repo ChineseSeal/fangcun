@@ -38,8 +38,9 @@ links the project, pulls the Preview environment, builds with the pinned
 Vercel CLI `58.9.0`, deploys the prebuilt output, and runs
 `pnpm test:e2e:preview` against the resulting URL.
 
-Configure these GitHub Actions secrets before enabling the workflow on the
-repository:
+The repository workflow requires these GitHub Actions secrets. Their names
+have been verified as configured; values must never be read, printed, or
+committed:
 
 - `VERCEL_TOKEN`
 - `VERCEL_ORG_ID`

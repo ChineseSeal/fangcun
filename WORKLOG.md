@@ -324,3 +324,8 @@
 
 - 按授权将 PR #1 标记为 Ready for review 并 squash 合并到 `main`，合并提交为 `9c65a53`；保留 bootstrap 分支，未执行自动生产发布或修改 Vercel Deployment Protection。
 - 合并后的 `main` CI 已触发并因默认分支仍缺少 `pnpm-lock.yaml` 失败；该过渡失败符合预期，待完整 `codex/r0-preview` 应用基线进入正式 Draft PR 后再验证 CI / Preview 闭环。
+
+## 2026-08-21 · R0 正式 Draft PR 准备
+
+- 将 `main` 的 Actions bootstrap 合并回 `codex/r0-preview`，两份 add/add 冲突仅保留已验证的 workflow 内容并带入 `.github/workflows/**` 路径过滤；同步 ROADMAP 与 R0 Vercel 文档为 Secrets 和 bootstrap 已就绪的当前状态。
+- 正式 PR 前继续执行 Markdown / diff、lint、typecheck、unit、build 校验；远端 CI、受保护 Preview 与 Smoke 结果将在 Draft PR 创建后记录。

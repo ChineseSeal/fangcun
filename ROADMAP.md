@@ -14,7 +14,7 @@
 | 设计规范 | DESIGN V2.0 已完成，包含 GSAP 动效与 React Three Fiber 3D 规范 |
 | 技术规范 | TECH V2.0 已完成，包含 Seal Engine、知识系统、动画 / 3D 架构 |
 | 可运行应用 | R0 已建立 `apps/web` Next.js 路由壳与五个规划入口 |
-| 当前路线图状态 | R0 本地与 Vercel Preview 验收完成，完整代码基线已推送到 `codex/r0-preview`，待配置 GitHub Secrets 并验证 PR 自动部署；R1、R2 本地交付完成；R3 待真实 G1；R4 仅待实物打印；R5、R6 本地交付完成；R7 已交付多面边款、材质切换、圆印曲面 UV、刀法凹凸、首批历史印 3D、多页私有印谱、可撤销分享链接、个人知识地图、课程 A4 讲义 / 投屏模式及 Gallery 审核 / 申诉 / Remix / 收藏合集闭环，平台化其余范围继续推进 |
+| 当前路线图状态 | R0 本地与 Vercel Preview 验收完成，完整代码基线已推送到 `codex/r0-preview`，GitHub Actions Secrets 与默认分支 workflow bootstrap 已就绪，待正式 R0 Draft PR 完成 CI / Preview 自动部署验收；R1、R2 本地交付完成；R3 待真实 G1；R4 仅待实物打印；R5、R6 本地交付完成；R7 已交付多面边款、材质切换、圆印曲面 UV、刀法凹凸、首批历史印 3D、多页私有印谱、可撤销分享链接、个人知识地图、课程 A4 讲义 / 投屏模式及 Gallery 审核 / 申诉 / Remix / 收藏合集闭环，平台化其余范围继续推进 |
 | 版本原则 | MVP 先验证生成闭环；V1 做内容与轻量 3D；V2 做平台化；V3 做真实盖印与开放能力 |
 
 ## 2. 版本地图
@@ -36,9 +36,9 @@ MVP 的 M5 先提供基于当前 DSL 的临时 PNG / SVG 导出；M4 在 V1 完�
 
 | 阶段 | 时间盒 | 里程碑 | 交付范围 | 前置依赖 | 进入下一阶段的条件 | 状态 |
 |---|---|---|---|---|---|---|
-| R0 基础设施 | T0–T0+2 周 | Scaffold | `apps/web`、pnpm workspace、Turborepo、路由壳、Design Tokens、环境配置、CI 骨架、Feature Flag 壳、事件 schema、Vercel Preview Smoke | 无 | 本地可启动；Preview 可部署；没有把密钥提交到仓库；代码基线已进入远程仓库 | 进行中（待 CI Secrets / PR workflow） |
+| R0 基础设施 | T0–T0+2 周 | Scaffold | `apps/web`、pnpm workspace、Turborepo、路由壳、Design Tokens、环境配置、CI 骨架、Feature Flag 壳、事件 schema、Vercel Preview Smoke | 无 | 本地可启动；Preview 可部署；没有把密钥提交到仓库；代码基线已进入远程仓库 | 进行中（待正式 PR CI / Preview） |
 
-R0 当前证据：创建 `fruitsai/fangcun` Vercel 项目并将根目录设为 `apps/web`、Node 设为 `22.x`；`apps/web/vercel.json` 固定 Next.js / pnpm 安装与构建命令；新增 `/api/system/health`，只返回 `appVersion`、`engineVersion`、`assetVersion` 与映射环境，不返回 secrets；`preview-smoke.spec.ts` 覆盖核心中英文路由、SVG 生成、横向溢出、浏览器错误与服务端密钥泄漏。当前 Preview `https://fangcun-7d4cw07ta-fruitsai.vercel.app` 为 READY，健康接口返回 staging、`0.1.0` / `0.1.0` / `2026.08.2`，受保护 Preview 已完成桌面 / 移动 Smoke 2/2；本地 lint、typecheck、unit、build 与 Preview Smoke 均通过。完整代码已通过提交 `8a01d4d` 建立并推送到 `codex/r0-preview`，GitHub Actions 所需 `VERCEL_TOKEN`、`VERCEL_ORG_ID`、`VERCEL_PROJECT_ID`、`VERCEL_AUTOMATION_BYPASS_SECRET` 尚未配置，PR workflow 尚未验证，因此 R0 保持待 CI Secrets / PR workflow 状态。
+R0 当前证据：创建 `fruitsai/fangcun` Vercel 项目并将根目录设为 `apps/web`、Node 设为 `22.x`；`apps/web/vercel.json` 固定 Next.js / pnpm 安装与构建命令；新增 `/api/system/health`，只返回 `appVersion`、`engineVersion`、`assetVersion` 与映射环境，不返回 secrets；`preview-smoke.spec.ts` 覆盖核心中英文路由、SVG 生成、横向溢出、浏览器错误与服务端密钥泄漏。当前 Preview `https://fangcun-7d4cw07ta-fruitsai.vercel.app` 为 READY，健康接口返回 staging、`0.1.0` / `0.1.0` / `2026.08.2`，受保护 Preview 已完成桌面 / 移动 Smoke 2/2；本地 lint、typecheck、unit、build 与 Preview Smoke 均通过。完整代码已通过提交 `8a01d4d` 建立并推送到 `codex/r0-preview`；四个 GitHub Actions Secret 名称已复核存在且未读取值；PR #1 已将 CI 与 Vercel Preview workflow bootstrap 合入 `main`。R0 当前只待正式应用 Draft PR 的远端 CI、受保护 Preview 和 Smoke 验收。
 | R1 引擎与安全底座 | T0+2–6 周 | M0 / C1 / K0 / A1 | DSL Schema、Glyph 导入与质检、2×2 静态 SVG、Seal Engine 最小管线、服务端合规检查、30 条术语种子、GSAP Token / `useGSAP` 基础、减少动效 | R0 | G01–G02 Golden 通过；服务端能拦截红线；输入与最终 SVG 有稳定数据契约 | 完成 |
 | R2 生成能力 | T0+6–10 周 | M1 / K1 | 方 / 圆、朱白、三类脚本、6 种章法、候选生成、`explain` 与 `annotations[]`、首页实时篆化预览 | R1 | G01–G10、G16 通过；候选生成 P95 < 1.5s；同 DSL + seed 可复现 | 完成 |
 | R3 Studio 与 MVP 闭环 | T0+10–14 周 | M2 / M3 / M5 / K2 | 快速生成器、Studio、单字 Variant、边框、残损 / 印泥、Undo / Redo、PNG / SVG、术语浮层、L0 前 3 课、字典 / 印库种子页、首次盖印时间线、无障碍核心流程 | R2 | 5 位无背景用户可完成输入 → 生成 → 调整 → 导出；导出一致；无减少动效阻塞；G1 MVP Gate 通过 | 进行中 |
@@ -48,7 +48,7 @@ R0 当前证据：创建 `fruitsai/fangcun` Vercel 项目并将根目录设为 `
 | R7 V2 平台化 | V1.5 后 0–12 周 | P2 / P3 / A4 / K5–K7 扩展 | 历史印库、高级字典、Gallery / Remix、边款、印谱、教育模式、3D 材质 / 多视角 / 边款贴合、识印小测与知识地图 | R6；M6；A3 | 历史来源字段完整；公开作品审核可用；3D 视角 / 材质切换不改变 DSL 几何；印谱 PDF 实测尺寸正确 | 进行中 |
 | R8 V3 开放与实体 | V2 后分阶段 | A5 / API | 可拖动真实盖印、压痕 / 印泥视觉仿真、篆刻过程动画、实体刻制链路、Seal API / 知识 API、EPS / DXF / CNC | R7；法务与生产合作方 | API 版本化与限流可用；真实盖印最终印蜕仍由 Seal Engine 确定性生成；生产导出有人工抽检 | 计划 |
 
-R1 验收证据：`packages/seal-engine/src/golden.test.ts` 固定 G01 / G02 SVG hash 与结构；`/api/compliance/check` 和 `/api/seals/generate` 已完成本地请求验证。Glyph 资产 `2026.08.2` 已从带授权与固定哈希的 CNS11643《说文解字》、JFZSKSealScript V3 和 OpenCC 映射生成 10,180 个基础 SVG Variant，覆盖 8,925 个输入字符，并保留来源字、可信度、现代篆化标记及质量报告；甲骨文、金文、缺字古玺、汉印篆和鸟虫篆以确定性规则按需扩展到同等输入覆盖，始终标记为现代生成，后续逐字文物摹本可自动覆盖。服务端按 Unicode 分片加载，Web 静态示例使用版本化 SVG Sprite，生产冷请求 41ms、热请求 7ms，首页首载 117KB。R2 验收证据：`/create` 已接入三候选生成与候选切换，`/api/seals/explain` / `/api/seals/relayout` 已返回结构化事实与锁定字形重排结果；G01–G10、G16 Golden、100 次字节级确定性测试均已通过，本地 100 次候选生成 P95 为 0.283ms；首页已使用 Seal Engine SVG 实时预览，Playwright 桌面 / 移动交互与视口检查共 4 项通过。Preview 部署仍属于 R0 待办，不影响 R2 本地验收结论。
+R1 验收证据：`packages/seal-engine/src/golden.test.ts` 固定 G01 / G02 SVG hash 与结构；`/api/compliance/check` 和 `/api/seals/generate` 已完成本地请求验证。Glyph 资产 `2026.08.2` 已从带授权与固定哈希的 CNS11643《说文解字》、JFZSKSealScript V3 和 OpenCC 映射生成 10,180 个基础 SVG Variant，覆盖 8,925 个输入字符，并保留来源字、可信度、现代篆化标记及质量报告；甲骨文、金文、缺字古玺、汉印篆和鸟虫篆以确定性规则按需扩展到同等输入覆盖，始终标记为现代生成，后续逐字文物摹本可自动覆盖。服务端按 Unicode 分片加载，Web 静态示例使用版本化 SVG Sprite，生产冷请求 41ms、热请求 7ms，首页首载 117KB。R2 验收证据：`/create` 已接入三候选生成与候选切换，`/api/seals/explain` / `/api/seals/relayout` 已返回结构化事实与锁定字形重排结果；G01–G10、G16 Golden、100 次字节级确定性测试均已通过，本地 100 次候选生成 P95 为 0.283ms；首页已使用 Seal Engine SVG 实时预览，Playwright 桌面 / 移动交互与视口检查共 4 项通过。R0 的手工 Preview 已完成，正式 PR 自动部署验收仍在推进，不影响 R2 本地验收结论。
 
 R3 当前证据：`/create` 候选可进入 `/studio`；Studio 已支持印式、形状、密度、边框、残损、seed、重新盖印、单字 Variant 选择 / 来源 / 锁定、50 步 Undo / Redo、本地草稿、离线保留、参考网格和 PNG / 透明 PNG / SVG 导出；PNG 由服务端合规复检后的权威 SVG 在浏览器按需栅格化。统一术语库已提供拼音、最长匹配与键盘可操作的非模态浮层；L0 前 3 课已生成静态课程页并连接创作练习，版本化本地进度支持开始、完成、刷新恢复与继续下一课。`docs/UI/` 原型已完成响应式页面重构并沉淀 Design Tokens 与公共组件；思源宋体、思源黑体和参数等宽字体已通过 Fontsource WOFF2 分片自托管，字体 E2E 验证实际命中与同源请求。首次盖印已使用 scoped `useGSAP` 时间线实现，仅在首次生成、重新生成或主动“重新盖印”时播放；减少动效模式直接显示最终印面。核心五路由的桌面 / 移动 axe 审计均为 0 critical；自动化 G1 代表性任务已完成输入 → 生成 → 选方案 → 调整 → 导出 1000px PNG，桌面 5.4s、移动 4.1s。[G1 五人测试脚本](docs/G1-USABILITY-TEST.md) 已准备但未填入虚构结果。当前 55 项单元 / Golden 测试、48 项桌面 / 移动 E2E 与 22 个静态页面构建通过。R3 仅待 5 位真实无背景用户的脚本验收。
 
