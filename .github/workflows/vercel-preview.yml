@@ -1,0 +1,92 @@
+name: Vercel Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+env:
+  VERCEL_CLI_VERSION: 58.9.0
+
+jobs:
+  preview:
+    # Do not expose deployment credentials to pull requests from forks.
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      VERCEL_AUTOMATION_BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.30.3
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Verify Vercel secrets
+        run: |
+          test -n "$VERCEL_TOKEN" || { echo "VERCEL_TOKEN is not configured" >&2; exit 1; }
+          test -n "$VERCEL_ORG_ID" || { echo "VERCEL_ORG_ID is not configured" >&2; exit 1; }
+          test -n "$VERCEL_PROJECT_ID" || { echo "VERCEL_PROJECT_ID is not configured" >&2; exit 1; }
+          test -n "$VERCEL_AUTOMATION_BYPASS_SECRET" || { echo "VERCEL_AUTOMATION_BYPASS_SECRET is not configured" >&2; exit 1; }
+
+      - name: Link Vercel project
+        run: corepack pnpm dlx vercel@${VERCEL_CLI_VERSION} link --yes --project "$VERCEL_PROJECT_ID" --scope "$VERCEL_ORG_ID"
+
+      - name: Pull preview environment
+        run: corepack pnpm dlx vercel@${VERCEL_CLI_VERSION} pull --yes --environment=preview
+
+      - name: Build Vercel output
+        env:
+          NEXT_PUBLIC_APP_ENV: staging
+          OPENAI_AI_DESIGNER_PROVIDER: rules
+        run: corepack pnpm dlx vercel@${VERCEL_CLI_VERSION} build --target preview
+
+      - name: Deploy preview
+        id: deploy
+        run: |
+          preview_url="$(corepack pnpm dlx vercel@${VERCEL_CLI_VERSION} deploy --prebuilt --yes | tail -n 1)"
+          test -n "$preview_url"
+          echo "url=$preview_url" >> "$GITHUB_OUTPUT"
+
+      - name: Install Playwright browser
+        run: pnpm --filter @fangcun/web exec playwright install --with-deps chromium
+
+      - name: Run preview smoke
+        env:
+          CI: true
+          PLAYWRIGHT_BASE_URL: ${{ steps.deploy.outputs.url }}
+        run: pnpm test:e2e:preview
+
+      - name: Comment preview URL
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        env:
+          PREVIEW_URL: ${{ steps.deploy.outputs.url }}
+        with:
+          script: |
+            const body = `Fangcun Vercel Preview: ${process.env.PREVIEW_URL}`;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body,
+            });
