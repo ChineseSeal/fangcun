@@ -309,3 +309,8 @@
 ## 2026-08-20 · R0 路线图同步
 
 - 将 ROADMAP 的 R0 状态从“待基线提交 / CI Secrets”更新为“待 CI Secrets / PR workflow”，记录完整基线已推送、当前提交与剩余外部配置边界。
+
+## 2026-08-20 · R0 GitHub Secrets 复核
+
+- 已确认仓库 `ChineseSeal/fangcun` 存在 `VERCEL_TOKEN`、`VERCEL_ORG_ID`、`VERCEL_PROJECT_ID`、`VERCEL_AUTOMATION_BYPASS_SECRET` 四个 Actions Secret；只验证名称与更新时间，没有读取或输出 secret 值。
+- 尝试以 `workflow_dispatch` 验证 Preview workflow 时，GitHub 返回 workflow 不存在于默认分支；原因是 workflow 当前只在 `codex/r0-preview`，尚未通过 PR 进入 `main` 的 workflow 发现范围。当前未创建 PR，等待明确授权。
