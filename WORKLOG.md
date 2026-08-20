@@ -305,3 +305,7 @@
 
 - 修正 Python `__pycache__` 忽略规则与提交空白后，创建 `feat: establish Fangcun R0 application baseline`，提交 `8a01d4d`，包含 577 个基线文件；推送前重新通过 lint、typecheck、unit 和生产 build。
 - 通过 SSH 将 `codex/r0-preview` 推送到 `github.com/ChineseSeal/fangcun`，远程分支 SHA 与本地一致；GitHub Actions Secrets 尚未配置，PR 尚未创建，Vercel 仍保持 Preview-only。
+
+## 2026-08-20 · R0 路线图同步
+
+- 将 ROADMAP 的 R0 状态从“待基线提交 / CI Secrets”更新为“待 CI Secrets / PR workflow”，记录完整基线已推送、当前提交与剩余外部配置边界。

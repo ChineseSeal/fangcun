@@ -14,7 +14,7 @@
 | 设计规范 | DESIGN V2.0 已完成，包含 GSAP 动效与 React Three Fiber 3D 规范 |
 | 技术规范 | TECH V2.0 已完成，包含 Seal Engine、知识系统、动画 / 3D 架构 |
 | 可运行应用 | R0 已建立 `apps/web` Next.js 路由壳与五个规划入口 |
-| 当前路线图状态 | R0 本地与 Vercel Preview 验收完成，待提交完整代码基线并配置 GitHub Secrets 后启用 PR 自动部署；R1、R2 本地交付完成；R3 待真实 G1；R4 仅待实物打印；R5、R6 本地交付完成；R7 已交付多面边款、材质切换、圆印曲面 UV、刀法凹凸、首批历史印 3D、多页私有印谱、可撤销分享链接、个人知识地图、课程 A4 讲义 / 投屏模式及 Gallery 审核 / 申诉 / Remix / 收藏合集闭环，平台化其余范围继续推进 |
+| 当前路线图状态 | R0 本地与 Vercel Preview 验收完成，完整代码基线已推送到 `codex/r0-preview`，待配置 GitHub Secrets 并验证 PR 自动部署；R1、R2 本地交付完成；R3 待真实 G1；R4 仅待实物打印；R5、R6 本地交付完成；R7 已交付多面边款、材质切换、圆印曲面 UV、刀法凹凸、首批历史印 3D、多页私有印谱、可撤销分享链接、个人知识地图、课程 A4 讲义 / 投屏模式及 Gallery 审核 / 申诉 / Remix / 收藏合集闭环，平台化其余范围继续推进 |
 | 版本原则 | MVP 先验证生成闭环；V1 做内容与轻量 3D；V2 做平台化；V3 做真实盖印与开放能力 |
 
 ## 2. 版本地图
@@ -36,9 +36,9 @@ MVP 的 M5 先提供基于当前 DSL 的临时 PNG / SVG 导出；M4 在 V1 完�
 
 | 阶段 | 时间盒 | 里程碑 | 交付范围 | 前置依赖 | 进入下一阶段的条件 | 状态 |
 |---|---|---|---|---|---|---|
-| R0 基础设施 | T0–T0+2 周 | Scaffold | `apps/web`、pnpm workspace、Turborepo、路由壳、Design Tokens、环境配置、CI 骨架、Feature Flag 壳、事件 schema、Vercel Preview Smoke | 无 | 本地可启动；Preview 可部署；没有把密钥提交到仓库；代码基线已进入远程仓库 | 进行中（待基线提交 / CI Secrets） |
+| R0 基础设施 | T0–T0+2 周 | Scaffold | `apps/web`、pnpm workspace、Turborepo、路由壳、Design Tokens、环境配置、CI 骨架、Feature Flag 壳、事件 schema、Vercel Preview Smoke | 无 | 本地可启动；Preview 可部署；没有把密钥提交到仓库；代码基线已进入远程仓库 | 进行中（待 CI Secrets / PR workflow） |
 
-R0 当前证据：创建 `fruitsai/fangcun` Vercel 项目并将根目录设为 `apps/web`、Node 设为 `22.x`；`apps/web/vercel.json` 固定 Next.js / pnpm 安装与构建命令；新增 `/api/system/health`，只返回 `appVersion`、`engineVersion`、`assetVersion` 与映射环境，不返回 secrets；`preview-smoke.spec.ts` 覆盖核心中英文路由、SVG 生成、横向溢出、浏览器错误与服务端密钥泄漏。当前 Preview `https://fangcun-7d4cw07ta-fruitsai.vercel.app` 为 READY，健康接口返回 staging、`0.1.0` / `0.1.0` / `2026.08.2`，受保护 Preview 已完成桌面 / 移动 Smoke 2/2；本地 lint、typecheck、unit、build 与 Preview Smoke 均通过。完整代码目前仍未进入远程 Git 基线，GitHub Actions 所需 `VERCEL_TOKEN`、`VERCEL_ORG_ID`、`VERCEL_PROJECT_ID`、`VERCEL_AUTOMATION_BYPASS_SECRET` 也尚未配置，因此 R0 保持待基线提交 / CI Secrets 状态。
+R0 当前证据：创建 `fruitsai/fangcun` Vercel 项目并将根目录设为 `apps/web`、Node 设为 `22.x`；`apps/web/vercel.json` 固定 Next.js / pnpm 安装与构建命令；新增 `/api/system/health`，只返回 `appVersion`、`engineVersion`、`assetVersion` 与映射环境，不返回 secrets；`preview-smoke.spec.ts` 覆盖核心中英文路由、SVG 生成、横向溢出、浏览器错误与服务端密钥泄漏。当前 Preview `https://fangcun-7d4cw07ta-fruitsai.vercel.app` 为 READY，健康接口返回 staging、`0.1.0` / `0.1.0` / `2026.08.2`，受保护 Preview 已完成桌面 / 移动 Smoke 2/2；本地 lint、typecheck、unit、build 与 Preview Smoke 均通过。完整代码已通过提交 `8a01d4d` 建立并推送到 `codex/r0-preview`，GitHub Actions 所需 `VERCEL_TOKEN`、`VERCEL_ORG_ID`、`VERCEL_PROJECT_ID`、`VERCEL_AUTOMATION_BYPASS_SECRET` 尚未配置，PR workflow 尚未验证，因此 R0 保持待 CI Secrets / PR workflow 状态。
 | R1 引擎与安全底座 | T0+2–6 周 | M0 / C1 / K0 / A1 | DSL Schema、Glyph 导入与质检、2×2 静态 SVG、Seal Engine 最小管线、服务端合规检查、30 条术语种子、GSAP Token / `useGSAP` 基础、减少动效 | R0 | G01–G02 Golden 通过；服务端能拦截红线；输入与最终 SVG 有稳定数据契约 | 完成 |
 | R2 生成能力 | T0+6–10 周 | M1 / K1 | 方 / 圆、朱白、三类脚本、6 种章法、候选生成、`explain` 与 `annotations[]`、首页实时篆化预览 | R1 | G01–G10、G16 通过；候选生成 P95 < 1.5s；同 DSL + seed 可复现 | 完成 |
 | R3 Studio 与 MVP 闭环 | T0+10–14 周 | M2 / M3 / M5 / K2 | 快速生成器、Studio、单字 Variant、边框、残损 / 印泥、Undo / Redo、PNG / SVG、术语浮层、L0 前 3 课、字典 / 印库种子页、首次盖印时间线、无障碍核心流程 | R2 | 5 位无背景用户可完成输入 → 生成 → 调整 → 导出；导出一致；无减少动效阻塞；G1 MVP Gate 通过 | 进行中 |
