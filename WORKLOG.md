@@ -314,3 +314,13 @@
 
 - 已确认仓库 `ChineseSeal/fangcun` 存在 `VERCEL_TOKEN`、`VERCEL_ORG_ID`、`VERCEL_PROJECT_ID`、`VERCEL_AUTOMATION_BYPASS_SECRET` 四个 Actions Secret；只验证名称与更新时间，没有读取或输出 secret 值。
 - 尝试以 `workflow_dispatch` 验证 Preview workflow 时，GitHub 返回 workflow 不存在于默认分支；原因是 workflow 当前只在 `codex/r0-preview`，尚未通过 PR 进入 `main` 的 workflow 发现范围。当前未创建 PR，等待明确授权。
+
+## 2026-08-20 · R0 Actions Bootstrap Draft PR
+
+- 从 README-only `main` 创建并推送 `codex/r0-actions-bootstrap`，提交两份 GitHub Actions workflow，并创建 Draft PR #1；未包含应用源码、生产配置或 secret 值，也未执行自动合并。
+- 为 workflow-only bootstrap 增加 `.github/workflows/**` 路径过滤并修正 PR 正文；Ruby / PyYAML 解析和 `git diff --check` 通过。GitHub Actions 未在最新提交重跑，Vercel 内置 Git 集成仍因 `main` 尚无 `apps/web` 报预期失败。
+
+## 2026-08-21 · R0 Actions Bootstrap 合并
+
+- 按授权将 PR #1 标记为 Ready for review 并 squash 合并到 `main`，合并提交为 `9c65a53`；保留 bootstrap 分支，未执行自动生产发布或修改 Vercel Deployment Protection。
+- 合并后的 `main` CI 已触发并因默认分支仍缺少 `pnpm-lock.yaml` 失败；该过渡失败符合预期，待完整 `codex/r0-preview` 应用基线进入正式 Draft PR 后再验证 CI / Preview 闭环。
