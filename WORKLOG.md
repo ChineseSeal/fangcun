@@ -334,3 +334,9 @@
 
 - PR #2 已创建；Vercel Git 集成针对 `codex/r0-preview` 生成 Ready Preview，但自定义 Preview workflow 在 `vercel link` 处返回 `User not found (404)`，说明 `VERCEL_TOKEN` 的认证主体失效或无权访问 team；Secret 值未读取。
 - 自定义 CI 的 lint、typecheck、unit 与 Playwright 浏览器安装通过，完整 E2E 在 15 分钟 job 上限处被取消；将质量 job 上限调整为 30 分钟，等待下一轮远端验证。未执行生产发布或 Preview promote。
+
+## 2026-08-21 · R0 Preview Workflow 收敛
+
+- CI 第二轮在 18 分 21 秒内通过完整质量链：214 passed / 22 skipped，随后 build 成功；Vercel Git 集成对同一 SHA 生成受保护 Ready Preview 并返回 success。
+- 自定义 Preview workflow 改为等待 Vercel Git status、读取 Vercel bot 发布的 Preview URL，并只用 automation bypass secret 执行桌面 / 移动 Smoke；移除重复 CLI 部署及其失效 token 依赖，仍不关闭 Deployment Protection 或触发生产发布。
+- PR 事件查询固定使用实际 head SHA，并保留手动 `workflow_dispatch` 的显式 Preview URL 输入，避免把临时 merge SHA 或无 URL 的手动运行误判为部署完成。

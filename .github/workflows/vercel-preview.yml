@@ -6,13 +6,20 @@ on:
     paths-ignore:
       - ".github/workflows/**"
   workflow_dispatch:
+    inputs:
+      preview_url:
+        description: Protected Vercel Preview URL to smoke test
+        required: true
+        type: string
 
 permissions:
+  checks: read
   contents: read
   pull-requests: write
+  statuses: read
 
 env:
-  VERCEL_CLI_VERSION: 58.9.0
+  VERCEL_STATUS_TIMEOUT_SECONDS: 900
 
 jobs:
   preview:
@@ -21,9 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
-      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      GH_TOKEN: ${{ github.token }}
       VERCEL_AUTOMATION_BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
     steps:
       - name: Checkout
@@ -43,29 +48,39 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Verify Vercel secrets
+      - name: Verify Preview protection secret
         run: |
-          test -n "$VERCEL_TOKEN" || { echo "VERCEL_TOKEN is not configured" >&2; exit 1; }
-          test -n "$VERCEL_ORG_ID" || { echo "VERCEL_ORG_ID is not configured" >&2; exit 1; }
-          test -n "$VERCEL_PROJECT_ID" || { echo "VERCEL_PROJECT_ID is not configured" >&2; exit 1; }
           test -n "$VERCEL_AUTOMATION_BYPASS_SECRET" || { echo "VERCEL_AUTOMATION_BYPASS_SECRET is not configured" >&2; exit 1; }
 
-      - name: Link Vercel project
-        run: corepack pnpm dlx vercel@${VERCEL_CLI_VERSION} link --yes --project "$VERCEL_PROJECT_ID" --scope "$VERCEL_ORG_ID"
-
-      - name: Pull preview environment
-        run: corepack pnpm dlx vercel@${VERCEL_CLI_VERSION} pull --yes --environment=preview
-
-      - name: Build Vercel output
-        env:
-          NEXT_PUBLIC_APP_ENV: staging
-          OPENAI_AI_DESIGNER_PROVIDER: rules
-        run: corepack pnpm dlx vercel@${VERCEL_CLI_VERSION} build --target preview
-
-      - name: Deploy preview
+      - name: Wait for Vercel Git deployment
         id: deploy
+        env:
+          COMMIT_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+          MANUAL_PREVIEW_URL: ${{ inputs.preview_url }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
-          preview_url="$(corepack pnpm dlx vercel@${VERCEL_CLI_VERSION} deploy --prebuilt --yes | tail -n 1)"
+          deadline=$(( $(date +%s) + VERCEL_STATUS_TIMEOUT_SECONDS ))
+          preview_url="$MANUAL_PREVIEW_URL"
+          if [ -n "$preview_url" ]; then
+            echo "url=$preview_url" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          while [ "$(date +%s)" -lt "$deadline" ]; do
+            status_json="$(gh api "repos/${GITHUB_REPOSITORY}/commits/${COMMIT_SHA}/status")"
+            vercel_state="$(printf '%s' "$status_json" | jq -r '.statuses[] | select(.context == "Vercel") | .state' | tail -n 1)"
+            if [ "$vercel_state" = "success" ]; then
+              preview_url="$(gh api "repos/${GITHUB_REPOSITORY}/issues/${PR_NUMBER}/comments" --paginate | jq -r '[.[] | select(.user.login == "vercel[bot]") | .body | capture("\\[Preview\\]\\((?<url>https://[^)]+\\.vercel\\.app)\\)").url] | last // empty')"
+              if [ -n "$preview_url" ]; then
+                break
+              fi
+            fi
+            if [ "$vercel_state" = "failure" ] || [ "$vercel_state" = "error" ]; then
+              echo "Vercel Git deployment failed" >&2
+              printf '%s\\n' "$status_json" >&2
+              exit 1
+            fi
+            sleep 15
+          done
           test -n "$preview_url"
           echo "url=$preview_url" >> "$GITHUB_OUTPUT"
 
@@ -85,7 +100,7 @@ jobs:
           PREVIEW_URL: ${{ steps.deploy.outputs.url }}
         with:
           script: |
-            const body = `Fangcun Vercel Preview: ${process.env.PREVIEW_URL}`;
+            const body = `Fangcun protected Preview Smoke passed: ${process.env.PREVIEW_URL}`;
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,

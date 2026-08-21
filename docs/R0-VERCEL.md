@@ -33,22 +33,16 @@ Vercel protection-bypass secret supplied only through CI environment variables.
 
 ## CI Contract
 
-The [`vercel-preview.yml`](../.github/workflows/vercel-preview.yml) workflow
-links the project, pulls the Preview environment, builds with the pinned
-Vercel CLI `58.9.0`, deploys the prebuilt output, and runs
-`pnpm test:e2e:preview` against the resulting URL.
+The Vercel Git integration builds the Preview for the current pull-request
+commit. The [`vercel-preview.yml`](../.github/workflows/vercel-preview.yml)
+workflow waits for that commit's `Vercel` status, reads the Preview URL posted
+by the Vercel GitHub app, and runs `pnpm test:e2e:preview` against the protected
+deployment. It does not create a duplicate CLI deployment.
 
-The repository workflow requires these GitHub Actions secrets. Their names
-have been verified as configured; values must never be read, printed, or
-committed:
-
-- `VERCEL_TOKEN`
-- `VERCEL_ORG_ID`
-- `VERCEL_PROJECT_ID`
-- `VERCEL_AUTOMATION_BYPASS_SECRET`
-
-The last value is the Vercel automation-protection bypass secret. It must not
-be committed, printed, or placed in `.env.example`.
+The workflow requires only `VERCEL_AUTOMATION_BYPASS_SECRET`, the Vercel
+automation-protection bypass secret. Its name has been verified as configured;
+the value must not be read, printed, committed, or placed in `.env.example`.
+Manual workflow runs must also provide the protected Preview URL explicitly.
 
 ## Local Verification
 
