@@ -329,3 +329,8 @@
 
 - 将 `main` 的 Actions bootstrap 合并回 `codex/r0-preview`，两份 add/add 冲突仅保留已验证的 workflow 内容并带入 `.github/workflows/**` 路径过滤；同步 ROADMAP 与 R0 Vercel 文档为 Secrets 和 bootstrap 已就绪的当前状态。
 - 正式 PR 前继续执行 Markdown / diff、lint、typecheck、unit、build 校验；远端 CI、受保护 Preview 与 Smoke 结果将在 Draft PR 创建后记录。
+
+## 2026-08-21 · R0 Draft PR 远端首轮
+
+- PR #2 已创建；Vercel Git 集成针对 `codex/r0-preview` 生成 Ready Preview，但自定义 Preview workflow 在 `vercel link` 处返回 `User not found (404)`，说明 `VERCEL_TOKEN` 的认证主体失效或无权访问 team；Secret 值未读取。
+- 自定义 CI 的 lint、typecheck、unit 与 Playwright 浏览器安装通过，完整 E2E 在 15 分钟 job 上限处被取消；将质量 job 上限调整为 30 分钟，等待下一轮远端验证。未执行生产发布或 Preview promote。
