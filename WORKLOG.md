@@ -340,3 +340,13 @@
 - CI 第二轮在 18 分 21 秒内通过完整质量链：214 passed / 22 skipped，随后 build 成功；Vercel Git 集成对同一 SHA 生成受保护 Ready Preview 并返回 success。
 - 自定义 Preview workflow 改为等待 Vercel Git status、读取 Vercel bot 发布的 Preview URL，并只用 automation bypass secret 执行桌面 / 移动 Smoke；移除重复 CLI 部署及其失效 token 依赖，仍不关闭 Deployment Protection 或触发生产发布。
 - PR 事件查询固定使用实际 head SHA，并保留手动 `workflow_dispatch` 的显式 Preview URL 输入，避免把临时 merge SHA 或无 URL 的手动运行误判为部署完成。
+
+## 2026-08-21 · R0 正式远端验收完成
+
+- PR #2 保持 Draft 且 merge state 为 `CLEAN`；workflow 修复提交 `e942720` 的 GitHub CI、Vercel status、Vercel Preview workflow 与 Preview Comments 全部成功。
+- 远端 CI 完成 214 passed / 22 skipped 的完整 E2E 与 64 页生产构建；受保护 Preview `https://fangcun-git-codex-r0-preview-fruitsai.vercel.app` READY，Preview Smoke 桌面 / 移动 2/2 通过。R0 已完成，未自动合并、未发布生产。
+
+## 2026-08-23 · R0 验收状态复核
+
+- 两天后复核 PR #2 仍为 Open / Draft / `CLEAN`，workflow 修复提交 `e942720` 的四项远端检查仍全部成功，受保护 Preview 仍为 READY。
+- 修正 ROADMAP 的单元 / Golden 统计为 223 项，并提交 R0 完成状态、正式 Preview 别名与验收证据；PR 保持 Draft，未自动合并或发布生产。

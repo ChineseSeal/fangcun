@@ -59,7 +59,8 @@ PLAYWRIGHT_BASE_URL=<preview-url> \
   pnpm test:e2e:preview
 ```
 
-The current verified Preview deployment is
-`https://fangcun-7d4cw07ta-fruitsai.vercel.app` (READY, generated on
-2026-08-16). It is an ephemeral deployment and should not be treated as a
-production URL. Production promotion remains a separate, manual action.
+The current verified Preview alias is
+`https://fangcun-git-codex-r0-preview-fruitsai.vercel.app` (READY, verified by
+PR #2 on 2026-08-21). It is an ephemeral, SSO-protected deployment and should
+not be treated as a production URL. Production promotion remains a separate,
+manual action.
