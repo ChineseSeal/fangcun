@@ -1,0 +1,137 @@
+.root {
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--color-info) 42%, var(--color-line));
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--color-panel) 94%, var(--color-info));
+  box-shadow: var(--shadow-paper);
+}
+
+.root > header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid var(--color-line);
+  padding: 22px 24px 18px;
+}
+
+.root small {
+  color: var(--color-info);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+}
+
+.root h2 {
+  margin: 6px 0 0;
+  font-family: var(--font-kai);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.tabs {
+  display: flex;
+  gap: 6px;
+  padding: 4px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 252, 246, 0.58);
+}
+
+.tabs button {
+  min-height: 36px;
+  border: 0;
+  border-radius: calc(var(--radius-sm) - 3px);
+  padding: 0 13px;
+  color: var(--color-brown);
+  background: transparent;
+  font-size: 11px;
+}
+
+.tabs button.selected {
+  color: var(--color-info);
+  background: var(--color-panel);
+  box-shadow: 0 1px 5px rgba(76, 67, 48, 0.12);
+}
+
+.stage {
+  display: grid;
+  min-height: 360px;
+  place-items: center;
+  padding: 34px;
+  background-image: radial-gradient(circle at center, rgba(255, 255, 255, 0.5), transparent 62%);
+}
+
+.stage > div {
+  width: min(280px, 76vw);
+}
+
+.root > footer {
+  display: grid;
+  grid-template-columns: minmax(120px, 0.55fr) 1fr auto;
+  align-items: center;
+  gap: 20px;
+  border-top: 1px solid var(--color-line);
+  padding: 16px 24px;
+}
+
+.root > footer strong {
+  font-family: var(--font-kai);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.root > footer p {
+  margin: 0;
+  color: var(--color-brown);
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.root dl {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+}
+
+.root dl div {
+  display: grid;
+  gap: 3px;
+}
+
+.root dt {
+  color: var(--color-brown);
+  font-size: 9px;
+}
+
+.root dd {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+  .root > header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .tabs button {
+    flex: 1;
+  }
+
+  .stage {
+    min-height: 310px;
+  }
+
+  .root > footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tabs button {
+    transition: none;
+  }
+}

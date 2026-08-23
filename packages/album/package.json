@@ -1,0 +1,26 @@
+{
+  "name": "@fangcun/album",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./pdf": "./src/pdf.ts"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "node -e \"console.log('album: lint covered by typecheck')\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fangcun/dsl-schema": "workspace:*",
+    "pdfkit": "0.19.1",
+    "svg-to-pdfkit": "0.1.8"
+  },
+  "devDependencies": {
+    "@types/pdfkit": "0.17.6",
+    "@types/svg-to-pdfkit": "0.1.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  }
+}

@@ -1,0 +1,17 @@
+.card { display: grid; gap: 14px; border: 1px solid var(--color-line); border-radius: var(--radius-md); padding: 22px; background: linear-gradient(145deg, rgba(255,252,246,.92), rgba(246,238,224,.72)); }
+.card header { display: grid; gap: 4px; }
+.card header > span { color: var(--color-cinnabar); font-family: var(--font-mono); font-size: 10px; letter-spacing: .1em; }
+.card h2 { margin: 0; font-family: var(--font-kai); font-size: 20px; font-weight: 500; }
+.card > p { margin: 0; color: var(--color-brown); font-size: 13px; line-height: 1.7; }
+.card form { display: grid; gap: 10px; }
+.card form button { justify-content: center; }
+.hint { padding: 10px 12px; border-left: 2px solid var(--color-line); background: rgba(255,252,246,.56); }
+.message { min-height: 2.8em; color: var(--color-brown); }
+
+.reviewState { display: grid; gap: 9px; border-left: 2px solid var(--color-line); padding: 12px 0 12px 14px; }
+.reviewState[data-status="published"] { border-color: var(--color-bronze); }
+.reviewState[data-status="rejected"], .reviewState[data-status="removed"] { border-color: var(--color-cinnabar); }
+.reviewState > span { color: var(--color-bronze); font-family: var(--font-mono); font-size: 10px; letter-spacing: .12em; }
+.reviewState p { margin: 0; color: var(--color-brown); font-size: 12px; line-height: 1.75; }
+.appealForm { display: grid; gap: 9px; margin-top: 6px; }
+.appealForm button { justify-self: start; }

@@ -1,0 +1,99 @@
+.wrapper {
+  position: relative;
+  display: inline-flex;
+  vertical-align: baseline;
+}
+
+.trigger {
+  border: 0;
+  border-bottom: 1px dashed var(--color-info);
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  line-height: inherit;
+  cursor: help;
+}
+
+.trigger:focus-visible {
+  border-radius: 2px;
+  outline: 2px solid color-mix(in srgb, var(--color-info) 55%, transparent);
+  outline-offset: 3px;
+}
+
+.popover {
+  position: absolute;
+  z-index: var(--z-popover);
+  bottom: calc(100% + 10px);
+  left: 0;
+  display: grid;
+  width: min(320px, calc(100vw - 48px));
+  gap: 10px;
+  border: 1px solid var(--color-line);
+  border-left: 3px solid var(--color-info);
+  border-radius: var(--radius-md);
+  padding: 15px 16px;
+  color: var(--color-ink);
+  background: var(--paper-50);
+  box-shadow: var(--shadow-float);
+  font-family: var(--font-serif);
+  line-height: 1.65;
+  text-align: left;
+}
+
+.heading {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.heading strong {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.heading small {
+  color: var(--color-info);
+  font-family: var(--font-sans);
+  font-size: 10px;
+}
+
+.definition {
+  font-size: 12px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer > span {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 1px solid var(--color-cinnabar);
+  color: var(--color-cinnabar);
+  font-family: var(--font-kai);
+  font-size: 20px;
+}
+
+.footer a {
+  color: var(--color-info);
+  font-family: var(--font-sans);
+  font-size: 11px;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    display: inline;
+  }
+
+  .popover {
+    position: relative;
+    bottom: auto;
+    display: grid;
+    margin-top: 8px;
+  }
+}

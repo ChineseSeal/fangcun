@@ -1,0 +1,157 @@
+.root {
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: var(--color-panel);
+  box-shadow: var(--shadow-paper);
+}
+
+.root > header {
+  border-bottom: 1px solid var(--color-line);
+  padding: 24px 28px 20px;
+}
+
+.root header small {
+  color: var(--color-info);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+}
+
+.root header h2 {
+  margin: 7px 0 8px;
+  font-family: var(--font-kai);
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.root header p {
+  margin: 0;
+  color: var(--color-brown);
+  font-size: 11px;
+}
+
+.interactive {
+  padding: 30px;
+}
+
+.splitStage {
+  position: relative;
+  width: min(440px, 100%);
+  aspect-ratio: 1;
+  overflow: hidden;
+  margin: 0 auto;
+  background: rgba(255, 252, 246, 0.72);
+}
+
+.leftSvg,
+.rightSvg {
+  position: absolute;
+  inset: 0;
+}
+
+.leftSvg svg,
+.rightSvg svg,
+.staticPair svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.splitStage > i {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--color-info);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.65);
+  transform: translateX(-1px);
+}
+
+.splitStage > i::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 28px;
+  height: 48px;
+  border: 1px solid var(--color-info);
+  border-radius: 999px;
+  background: var(--color-panel);
+  content: "";
+  transform: translate(-50%, -50%);
+}
+
+.interactive input {
+  display: block;
+  width: min(440px, 100%);
+  height: 44px;
+  margin: 10px auto 0;
+  accent-color: var(--color-info);
+}
+
+.labels {
+  display: grid;
+  max-width: 560px;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 6px auto 0;
+  color: var(--color-brown);
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+.labels span:last-child {
+  text-align: right;
+}
+
+.labels strong,
+.staticPair strong {
+  display: block;
+  color: var(--color-ink);
+  font-family: var(--font-kai);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.staticPair {
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 24px;
+}
+
+.staticPair figure {
+  margin: 0;
+}
+
+.staticPair figcaption {
+  display: block;
+  margin-top: 10px;
+  color: var(--color-brown);
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+noscript .staticPair {
+  display: grid;
+}
+
+@media (max-width: 620px) {
+  .interactive {
+    padding: 22px;
+  }
+
+  .labels {
+    gap: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .interactive {
+    display: none;
+  }
+
+  .root > .staticPair {
+    display: grid;
+  }
+}

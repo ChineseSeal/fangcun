@@ -1,0 +1,13 @@
+{
+  "name": "@fangcun/design-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    "./tokens.css": "./src/tokens.css"
+  },
+  "scripts": {
+    "lint": "node -e \"console.log('design tokens: no lint script yet')\"",
+    "typecheck": "node -e \"console.log('design tokens: no typecheck script yet')\"",
+    "test": "node -e \"console.log('design tokens: no tests yet')\""
+  }
+}

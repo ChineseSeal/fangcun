@@ -1,0 +1,178 @@
+.editor {
+  display: grid;
+  gap: 12px;
+  border-bottom: 1px solid rgba(216, 201, 176, 0.72);
+  padding: 14px 0;
+}
+
+.editor summary {
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.editor summary small,
+.intro,
+.textMeta small,
+.empty {
+  color: var(--color-brown);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.intro,
+.empty {
+  margin: 0;
+}
+
+.faceTabs,
+.choiceGroup > div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px;
+}
+
+.faceTabs button,
+.choiceGroup button,
+.textMeta button,
+.template button,
+.rubbing button {
+  min-height: 44px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  color: var(--color-brown);
+  background: rgba(255, 252, 246, 0.56);
+  font-size: 12px;
+}
+
+.faceTabs button {
+  position: relative;
+}
+
+.faceTabs button span {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-cinnabar);
+}
+
+.faceTabs button[aria-pressed="true"],
+.choiceGroup button[aria-pressed="true"] {
+  border-color: var(--color-cinnabar);
+  color: var(--color-cinnabar);
+  background: var(--paper-50);
+}
+
+.field,
+.template label {
+  display: grid;
+  gap: 5px;
+  color: var(--color-ink);
+  font-size: 12px;
+}
+
+.field textarea,
+.template input {
+  width: 100%;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  padding: 9px 10px;
+  color: var(--color-ink);
+  background: rgba(255, 252, 246, 0.7);
+  font: inherit;
+}
+
+.field textarea {
+  min-height: 82px;
+  resize: vertical;
+  font-family: var(--font-kai);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.textMeta {
+  display: flex;
+  min-height: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textMeta button {
+  min-height: 32px;
+  border: 0;
+  padding: 0 6px;
+  background: transparent;
+}
+
+.choiceGroup,
+.template {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.choiceGroup legend,
+.template legend {
+  padding: 0;
+  color: var(--color-ink);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.choiceGroup button[data-script="kai"] { font-family: var(--font-serif); }
+.choiceGroup button[data-script="xingshu"] { font-family: var(--font-kai); font-style: italic; }
+.choiceGroup button[data-script="lishu"] { font-family: var(--font-serif); letter-spacing: 0.08em; }
+
+.template label {
+  grid-template-columns: 42px 1fr;
+  align-items: center;
+}
+
+.template button,
+.rubbing button {
+  border-color: var(--color-cinnabar);
+  color: var(--color-cinnabar);
+}
+
+.template button:disabled,
+.rubbing button:disabled {
+  cursor: not-allowed;
+  opacity: 0.42;
+}
+
+.rubbing {
+  display: grid;
+  gap: 8px;
+}
+
+.rubbing > div {
+  display: grid;
+  max-height: 164px;
+  overflow: hidden;
+  place-items: center;
+  border: 1px solid var(--color-line);
+  padding: 8px;
+  background: #171512;
+}
+
+.rubbing svg {
+  width: 100%;
+  height: auto;
+  max-height: 148px;
+}
+
+@media (max-width: 760px) {
+  .faceTabs {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

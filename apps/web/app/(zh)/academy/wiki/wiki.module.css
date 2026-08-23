@@ -1,0 +1,255 @@
+.page {
+  padding: 42px 0 78px;
+}
+
+.page > nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 38px;
+  color: var(--color-brown);
+  font-size: 11px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 48px;
+  margin-bottom: 44px;
+}
+
+.hero p,
+.catalog small {
+  color: var(--color-info);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+}
+
+.hero h1 {
+  margin: 12px 0 16px;
+  font-family: var(--font-kai);
+  font-size: clamp(42px, 6vw, 64px);
+  font-weight: 500;
+}
+
+.hero > div:first-child > span {
+  color: var(--color-brown);
+  line-height: 1.9;
+}
+
+.counter {
+  display: flex;
+  width: 210px;
+  aspect-ratio: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  border: 1px solid color-mix(in srgb, var(--color-info) 42%, var(--color-line));
+  border-radius: 50%;
+  color: var(--color-info);
+  background: color-mix(in srgb, var(--color-panel) 90%, var(--color-info));
+  box-shadow: var(--shadow-paper);
+}
+
+.counter strong {
+  font-family: var(--font-serif);
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.counter span {
+  border-left: 1px solid currentColor;
+  padding-left: 14px;
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+.catalog > header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 32px;
+  margin-bottom: 22px;
+}
+
+.catalog h2 {
+  margin: 6px 0 0;
+  font-family: var(--font-kai);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.catalog > header > p {
+  max-width: 360px;
+  margin: 0;
+  color: var(--color-brown);
+  font-size: 11px;
+  line-height: 1.8;
+  text-align: right;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.card {
+  position: relative;
+  display: grid;
+  min-height: 220px;
+  align-content: space-between;
+  overflow: hidden;
+  padding: 24px;
+  transition: border-color var(--duration-fast) var(--ease-out), transform var(--duration-fast) var(--ease-out), box-shadow var(--duration-fast) var(--ease-out);
+}
+
+.card::after {
+  position: absolute;
+  top: -28px;
+  right: -22px;
+  width: 104px;
+  height: 104px;
+  border: 1px solid color-mix(in srgb, var(--color-info) 22%, transparent);
+  border-radius: 50%;
+  content: "";
+}
+
+.card:hover {
+  border-color: color-mix(in srgb, var(--color-info) 58%, var(--color-line));
+  box-shadow: 0 14px 32px rgba(82, 66, 40, 0.09);
+  transform: translateY(-2px);
+}
+
+.order {
+  color: var(--color-info);
+  font-family: var(--font-mono);
+  font-size: 10px;
+}
+
+.term {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.term strong {
+  font-family: var(--font-kai);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.term span {
+  color: var(--color-brown);
+  font-size: 10px;
+}
+
+.card > p {
+  min-height: 44px;
+  margin: 18px 0;
+  color: var(--color-brown);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.card footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-top: 1px solid var(--color-line);
+  padding-top: 14px;
+  color: var(--color-info);
+  font-size: 9px;
+}
+
+.card footer span:nth-child(2) {
+  margin-right: auto;
+  color: var(--color-brown);
+}
+
+.note {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 18px;
+  margin-top: 28px;
+  border: 1px solid color-mix(in srgb, var(--color-info) 42%, var(--color-line));
+  border-radius: var(--radius-md);
+  padding: 20px 24px;
+  color: var(--color-info);
+  background: color-mix(in srgb, var(--color-panel) 94%, var(--color-info));
+}
+
+.note p {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+}
+
+.note p span {
+  color: var(--color-brown);
+  font-size: 11px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .hero {
+    align-items: end;
+    gap: 16px;
+  }
+
+  .counter {
+    width: 112px;
+  }
+
+  .counter strong {
+    font-size: 34px;
+  }
+
+  .counter span {
+    display: none;
+  }
+
+  .catalog > header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .catalog > header > p {
+    text-align: left;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    min-height: 205px;
+  }
+
+  .note {
+    grid-template-columns: auto 1fr;
+  }
+
+  .note a {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+}
